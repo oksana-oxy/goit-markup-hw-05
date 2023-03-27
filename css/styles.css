@@ -549,7 +549,8 @@ width: 100%;
         transition: transform 300ms linear;
  }
 
- .works-link:hover .cards-cover-text {
+ .works-link:hover .cards-cover-text,
+ .works-link:focus .cards-cover-text {
     transform: translateY(0);
  }
 
@@ -596,7 +597,7 @@ width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
-    transition-property: fill, background-color, ;
+    transition-property: fill, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  }
